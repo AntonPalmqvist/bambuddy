@@ -810,8 +810,8 @@ export default {
       warning: 'Varning',
       failure: 'Fel',
       idle: 'Inaktiv',
-      error: 'Not checking',
-      unknown: 'Starting',
+      error: 'Kontrollerar ej',
+      unknown: 'Startar',
       tooltipError: 'AI-feldetektering kontrollerar inte denna utskrift: {{reason}} - klicka för detaljer',
       tooltipUnknown: 'AI-feldetektering: väntar på det första resultatet - klicka för detaljer',
       errorHint: 'Denna utskrift kontrolleras ej. Detekteringen återupptas automatiskt när problemet nedan är åtgärdat.',
@@ -2686,7 +2686,7 @@ export default {
     accentRed: 'Röd',
     styleClassic: 'Klassisk',
     styleGlow: 'Sken',
-    styleVibrant: 'Vibrant',
+    styleVibrant: 'Livfull',
     themeToggleHint: 'Växla mellan mörkt, ljust och systemläge med ikonen i sidomenyn.',
     progressInTitle: 'Utskriftsförlopp i flik',
     progressInTitleDescription: 'Visa den aktiva utskriftens procentförlopp och en ring i webbläsarfliken.',
@@ -2974,7 +2974,7 @@ export default {
         fanoutStrategy: 'Fördelningsstrategi',
         fanout: {
           max_parallel: 'Max parallell — fördela över alla lediga matchande skrivare',
-          round_robin: 'Round robin — cykla genom berättigade skrivare',
+          round_robin: 'Rotationskö — cykla genom berättigade skrivare',
           fill_one_first: 'Fyll en först — fäst alla kopior till en skrivare',
         },
         // Short labels for the inline target chip on each pipeline card.
@@ -2982,7 +2982,7 @@ export default {
         // card just needs a compact reminder of which one is in use.
         fanoutShort: {
           max_parallel: 'parallell',
-          round_robin: 'round robin',
+          round_robin: 'rotationskö',
           fill_one_first: 'fyll en först',
         },
       },
@@ -4852,7 +4852,7 @@ errors: {
       sparkle: 'Gnistrande',
       wood: 'Trä',
       marble: 'Marmor',
-      glow: 'Glow',
+      glow: 'Lysande',
       matte: 'Matt',
       // Sheen / finish variants
       silk: 'Silke',
